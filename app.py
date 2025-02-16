@@ -138,36 +138,47 @@ st.markdown('<h1 class="title">HERA</h1>', unsafe_allow_html=True)
 st.markdown('<div style="text-align: center; margin-bottom: 3rem;"><h3 style="color: rgba(255,255,255,0.9); font-weight: 300;">High-efficiency Entities Recognition Application</h3></div>', unsafe_allow_html=True)
 
 # Feature Grid
+# Feature Grid
 st.markdown("""
 <div class="feature-grid">
     <!-- PII Masking Card -->
-    <div class="card" onclick="window.location.href='/pii_masking';">
+    <div class="card">
         <i class="fas fa-mask icon"></i>
         <h3 style="color: white; margin-bottom: 1rem;">PII Masking</h3>
         <p style="color: rgba(255,255,255,0.8); line-height: 1.6;">
             Proteksi otomatis untuk informasi sensitif seperti nomor KTP, rekening bank, dan data pribadi lainnya dengan teknologi masking canggih.
         </p>
     </div>
-
-<!-- NER Card -->
-<div class="card">
-    <i class="fas fa-search-location icon"></i>
-    <h3 style="color: white; margin-bottom: 1rem;">Entity Detection</h3>
-    <p style="color: rgba(255,255,255,0.8); line-height: 1.6;">
-        Identifikasi 20+ jenis entitas termasuk lokasi geografis, organisasi, dan entitas temporal dengan model NLP terlatih.
-    </p>
-</div>
-
-<!-- POS Tagging Card -->
-<div class="card">
-    <i class="fas fa-tags icon"></i>
-    <h3 style="color: white; margin-bottom: 1rem;">POS Tagging</h3>
-    <p style="color: rgba(255,255,255,0.8); line-height: 1.6;">
-        Analisis struktur kalimat mendalam dengan akurasi 98.7% untuk deteksi subjek, predikat, dan objek.
-    </p>
-</div>
-</div>
 """, unsafe_allow_html=True)
+if st.button("Go to PII Masking"):
+    st.page_link("pages/PII_Masking.py", label="")
+
+st.markdown("""
+    <!-- Entity Detection Card -->
+    <div class="card">
+        <i class="fas fa-search-location icon"></i>
+        <h3 style="color: white; margin-bottom: 1rem;">Entity Detection</h3>
+        <p style="color: rgba(255,255,255,0.8); line-height: 1.6;">
+            Identifikasi 20+ jenis entitas termasuk lokasi geografis, organisasi, dan entitas temporal dengan model NLP terlatih.
+        </p>
+    </div>
+""", unsafe_allow_html=True)
+if st.button("Go to Entity Detection"):
+    st.page_link("pages/Entity_Detection.py", label="")
+
+st.markdown("""
+    <!-- Subject Detection Card -->
+    <div class="card">
+        <i class="fas fa-tags icon"></i>
+        <h3 style="color: white; margin-bottom: 1rem;">Subject Detection</h3>
+        <p style="color: rgba(255,255,255,0.8); line-height: 1.6;">
+            Analisis struktur kalimat mendalam dengan akurasi 98.7% untuk deteksi subjek, predikat, dan objek.
+        </p>
+    </div>
+""", unsafe_allow_html=True)
+if st.button("Go to Subject Detection"):
+    st.page_link("pages/Subject_Detection.py", label="")
+
 
 # CTA Section
 if st.button("🚀 Launch HERA Now"):
