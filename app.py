@@ -151,7 +151,8 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 if st.button("Go to PII Masking"):
-    st.page_link("pages/PII_Masking.py", label="")
+    st.markdown("[Go to PII Masking](pages/PII_Masking.py)")
+
 
 st.markdown("""
     <!-- Entity Detection Card -->
@@ -182,7 +183,6 @@ if st.button("Go to Subject Detection"):
 
 # CTA Section
 if st.button("🚀 Launch HERA Now"):
-    st.balloons()
     st.success("Redirecting to application...")
     
 # Demo Section
