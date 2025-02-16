@@ -141,7 +141,7 @@ st.markdown('<div style="text-align: center; margin-bottom: 3rem;"><h3 style="co
 st.markdown("""
 <div class="feature-grid">
     <!-- PII Masking Card -->
-    <div class="card">
+    <div class="card" onclick="window.location.href='/pii_masking';">
         <i class="fas fa-mask icon"></i>
         <h3 style="color: white; margin-bottom: 1rem;">PII Masking</h3>
         <p style="color: rgba(255,255,255,0.8); line-height: 1.6;">
