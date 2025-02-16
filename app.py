@@ -185,7 +185,7 @@ st.markdown("""
         </div>
         <div style="padding: 1.5rem; background: rgba(0,0,0,0.1); border-radius: 10px;">
             <h4 style="color: #2575fc; margin-bottom: 1rem;">After PII Masking</h4>
-            <p style="color: rgba(255,255,255,0.7);">"████ ███ (███-██-████) tinggal di ███ █████ St, ███████."</p>
+            <p style="color: rgba(255,255,255,0.7);">"[Nama] (No. HP) tinggal di [Alamat].""</p>
         </div>
     </div>
 </div>
