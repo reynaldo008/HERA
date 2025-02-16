@@ -205,7 +205,7 @@ st.markdown("""
 # Footer
 st.markdown("""
 <div class="footer">
-    <p>Powered by AI Magic ✨ • v2.0.1</p>
+    <p>Powered by Streamlits ✨ • v2.0.1</p>
     <div style="margin-top: 1rem;">
         <a href="#"><i class="fab fa-github"></i></a>
         <a href="#"><i class="fab fa-twitter"></i></a>
