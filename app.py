@@ -27,7 +27,7 @@ body {
 
 /* Header */
 .header-title {
-    font-size: 7rem;  /* Ukuran judul di layar besar */
+    font-size: 12rem;  /* Ukuran judul di layar besar */
     font-weight: bold;
     text-align: center;
     background: linear-gradient(45deg, #FF6FD8, #3813C2);
