@@ -27,7 +27,7 @@ body {
 
 /* Header */
 .header-title {
-    font-size: 12rem;  
+    font-size: 9rem;  
     font-weight: bold;
     text-align: center;
     background: linear-gradient(45deg, #FF6FD8, #3813C2);
@@ -210,7 +210,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 
 # Header
 st.markdown('<h1 class="header-title">HERA</h1>', unsafe_allow_html=True)
-st.markdown('<div style="text-align: center; margin-bottom: 0.25rem;"><h3 style="color:#d0d0d0; font-weight: 200;">High-efficiency Entities Recognition Application</h3></div>', unsafe_allow_html=True)
+st.markdown('<div style="text-align: center; margin-bottom: 0.25rem;"><h3 style="color:#d0d0d0; font-weight: 150;">High-efficiency Entities Recognition Application</h3></div>', unsafe_allow_html=True)
 
 
 # Feature Cards
